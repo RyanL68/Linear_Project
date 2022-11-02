@@ -16,7 +16,7 @@ public class Linearequation {
     }
 
     public double slope(){
-        double slope = (double)(y2-y1)/(double)(x2/x1);
+        double slope = (double)(y2-y1)/(double)(x2-x1);
         return slope;
     }
 
